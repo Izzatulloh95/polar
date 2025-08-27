@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -114,4 +115,119 @@ header {
 
 .intro_img {
     width: 650px;
+=======
+.featured-product {
+    background-color: #F8EDF0;
+    padding: 0 20px;
+    border: 1px;
+}
+.container{
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.text-content {
+    flex: 1;
+}
+.text-content h2 {
+    
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        margin-bottom: 20px;
+        color: #150101;
+}
+.text-content p {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    background:#D64374;
+    color:#FAFAFA;
+    padding: 12px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+       
+.box {
+    display: flex;
+    gap: 80px;
+}
+.title {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+}
+.about_text {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+.nav_link {
+    color: #000000;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+}
+.nav_link2 {
+    color: #d64374;
+    width: 165;
+    height: 49;
+    opacity: 1;
+    top: 2861px;
+    left: 580px;
+    border-radius: 5px;
+}
+
+.delivery {
+    display: flex;
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.delivery_box {
+    box-shadow: 0px 0px 10px 0px #00000040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.title_h3 {
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title_h5 {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
 }
