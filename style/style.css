@@ -10,3 +10,41 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+.box {
+    display: flex;
+    gap: 80px;
+}
+.title {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+}
+.about_text {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+.nav_link {
+    color: #000000;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+}
+.nav_link2 {
+    color: #d64374;
+    width: 165;
+    height: 49;
+    opacity: 1;
+    top: 2861px;
+    left: 580px;
+    border-radius: 5px;
+}
